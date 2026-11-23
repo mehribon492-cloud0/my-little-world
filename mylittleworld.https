@@ -1,0 +1,356 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Little World 🎀</title>
+
+<style>
+/* MY LITTLE WORLD 2.0 */
+
+body {
+  background: linear-gradient(135deg, #fff0f5, #fce4ec, #eadcf8);
+  color: #51434d;
+  font-family: Arial, sans-serif;
+  line-height: 1.7;
+}
+
+h1 {
+  font-size: 42px;
+  letter-spacing: 2px;
+  text-shadow: 2px 3px 8px #e8b8cc;
+}
+
+nav {
+  position: sticky;
+  top: 10px;
+  z-index: 10;
+  box-shadow: 0 5px 15px #e8b8cc;
+}
+
+button {
+  transition: 0.3s;
+  box-shadow: 0 4px 10px #e8b8cc;
+}
+
+button:hover {
+  transform: scale(1.07);
+}
+
+.card {
+  border: 1px solid #f8c8dc;
+}
+
+.profile {
+  border: 2px solid #f8c8dc;
+}
+* { box-sizing: border-box; }
+
+body {
+  background: linear-gradient(135deg,#fff0f5,#fce4ec,#f8d7e8);
+  color: #444;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+  transition: 0.4s;
+}
+
+h1 {
+  color: #e879a5;
+  animation: appear 1.5s ease;
+}
+
+h2 { color: #bd6b91; }
+
+@keyframes appear {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+nav {
+  background: #f8c8dc;
+  padding: 15px;
+  border-radius: 20px;
+  margin: 20px auto;
+}
+
+nav a {
+  color: #8e4567;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  width: 180px;
+  box-shadow: 0 4px 10px #e8b8cc;
+  transition: transform 0.3s;
+}
+
+.card:hover { transform: translateY(-8px); }
+.card h3 { color: #d86e9b; }
+
+.profile, .clock, .welcome, .post-box {
+  background: white;
+  max-width: 350px;
+  margin: 25px auto;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 0 5px 15px #e8b8cc;
+}
+
+.profile img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+input, textarea {
+  padding: 12px;
+  border: 1px solid pink;
+  border-radius: 12px;
+  margin: 8px;
+  max-width: 90%;
+}
+
+textarea { width: 300px; min-height: 80px; }
+
+button {
+  background: #e879a5;
+  color: white;
+  border: none;
+  padding: 11px 17px;
+  border-radius: 12px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover { background: #bd6b91; }
+
+#posts div {
+  background: white;
+  padding: 15px;
+  margin: 15px auto;
+  border-radius: 15px;
+  max-width: 350px;
+  overflow-wrap: anywhere;
+}
+
+footer {
+  padding: 25px;
+  color: #bd6b91;
+}
+
+body.dark {
+  background: #292333;
+  color: white;
+}
+
+body.dark h2 { color: #f5b6d1; }
+body.dark .card,
+body.dark .profile,
+body.dark .clock,
+body.dark .welcome,
+body.dark .post-box,
+body.dark #posts div {
+  background: #40364b;
+  color: white;
+}
+</style>
+</head>
+
+<body>
+
+<h1 id="home">🎀 My Little World</h1>
+<p>Welcome to my creative world!</p>
+
+<nav>
+  <a href="#home">🏠 Bosh sahifa</a>
+  <a href="#about">🌷 Men haqimda</a>
+  <a href="#gallery">📸 Galereya</a>
+  <a href="#contact">💌 Aloqa</a>
+</nav>
+
+<h2 id="about">🌷 Men haqimda</h2>
+<p>Bu mening kichkina blogim.</p>
+<p>Video, dizayn, ijod va go‘zallik ✨</p>
+
+<div class="profile">
+  <img src="https://picsum.photos/150" alt="Profil rasmi">
+  <h2>My Profile 🎀</h2>
+  <p>Salom! Men ijodkor qizman.</p>
+  <p>Men video, dizayn va yangi g‘oyalarni yaxshi ko‘raman.</p>
+  <p>Welcome to my little world! 💗</p>
+</div>
+
+<h2>✨ Mening dunyom</h2>
+<div class="cards">
+  <div class="card">
+    <h3>🎥 My Vlogs</h3>
+    <p>Mening qiziqarli videolarim.</p>
+  </div>
+  <div class="card">
+    <h3>🎀 Aesthetic</h3>
+    <p>Chiroyli va yoqimli g‘oyalar.</p>
+  </div>
+  <div class="card">
+    <h3>🌷 Motivation</h3>
+    <p>Har kuni yangi orzular!</p>
+  </div>
+</div>
+
+<h2 id="gallery">📸 Mening galereyam</h2>
+<img src="https://picsum.photos/300/200" alt="Chiroyli rasm" width="250">
+<p>My aesthetic world 🌷</p>
+
+<div class="clock">
+  <h2>⏰ Hozirgi vaqt</h2>
+  <p id="time"></p>
+</div>
+
+<div class="welcome">
+  <h2>💗 Xush kelibsan!</h2>
+  <input id="name" type="text" placeholder="Ismingni yoz...">
+  <button onclick="welcomeUser()">Kirish 🎀</button>
+  <p id="message"></p>
+</div>
+
+<h2>🎨 Rangni o‘zgartir!</h2>
+<button onclick="changeColor()">Sehrli tugma ✨</button>
+
+<h2>🌙 Sayt rejimi</h2>
+<button onclick="darkMode()">🌙 Tungi rejim</button>
+<button onclick="lightMode()">☀️ Kunduzgi rejim</button>
+
+<h2>🔎 Blogdan qidirish</h2>
+<input id="search" placeholder="Nima izlayapsan?" oninput="searchBlog()">
+<p id="result"></p>
+
+<div class="post-box">
+  <h2>📝 Mening yangi postim</h2>
+  <input id="postTitle" placeholder="Post sarlavhasi...">
+  <br>
+  <textarea id="postText" placeholder="Post matnini yoz..."></textarea>
+  <br>
+  <button onclick="addPost()">Post joylash 🎀</button>
+</div>
+
+<h2>💌 Mening postlarim</h2>
+<div id="posts"></div>
+
+<h2 id="contact">💌 Aloqa</h2>
+<p>Welcome to my little world! 💗</p>
+
+<footer>Made with love 🎀 My Little World</footer>
+
+<script>
+function updateTime() {
+  const now = new Date();
+  document.getElementById("time").textContent =
+    now.toLocaleTimeString();
+}
+updateTime();
+setInterval(updateTime, 1000);
+
+function welcomeUser() {
+  let name = document.getElementById("name").value;
+  if (name.trim() === "") {
+    document.getElementById("message").textContent =
+      "Avval ismingni yoz! 🌷";
+  } else {
+    document.getElementById("message").textContent =
+      "Xush kelibsan, " + name + "! 💗";
+  }
+}
+
+function changeColor() {
+  document.body.style.background =
+    "linear-gradient(135deg,#fce4ec,#e1bee7)";
+}
+
+function darkMode() {
+  document.body.classList.add("dark");
+}
+
+function lightMode() {
+  document.body.classList.remove("dark");
+  document.body.style.background =
+    "linear-gradient(135deg,#fff0f5,#fce4ec,#f8d7e8)";
+}
+
+function searchBlog() {
+  let word = document.getElementById("search").value.toLowerCase();
+  let result = document.getElementById("result");
+
+  if (word === "") result.textContent = "";
+  else if (word.includes("vlog")) result.textContent = "🎥 My Vlogs";
+  else if (word.includes("aesthetic")) result.textContent = "🎀 Aesthetic";
+  else if (word.includes("motivation")) result.textContent = "🌷 Motivation";
+  else result.textContent = "Hech narsa topilmadi 💗";
+}
+
+let savedPosts = JSON.parse(localStorage.getItem("myPosts") || "[]");
+
+function showPosts() {
+  let container = document.getElementById("posts");
+  container.innerHTML = "";
+
+  savedPosts.forEach(function(item, index) {
+    let post = document.createElement("div");
+    let heading = document.createElement("h3");
+    let paragraph = document.createElement("p");
+    let button = document.createElement("button");
+
+    heading.textContent = item.title;
+    paragraph.textContent = item.text;
+    button.textContent = "🗑️ O‘chirish";
+    button.onclick = function() { deletePost(index); };
+
+    post.appendChild(heading);
+    post.appendChild(paragraph);
+    post.appendChild(button);
+    container.appendChild(post);
+  });
+}
+
+function addPost() {
+  let title = document.getElementById("postTitle").value.trim();
+  let text = document.getElementById("postText").value.trim();
+
+  if (title === "" || text === "") {
+    alert("Ikkala joyni ham to‘ldir! 💗");
+    return;
+  }
+
+  savedPosts.push({title: title, text: text});
+  localStorage.setItem("myPosts", JSON.stringify(savedPosts));
+  showPosts();
+
+  document.getElementById("postTitle").value = "";
+  document.getElementById("postText").value = "";
+}
+
+function deletePost(index) {
+  savedPosts.splice(index, 1);
+  localStorage.setItem("myPosts", JSON.stringify(savedPosts));
+  showPosts();
+}
+
+showPosts();
+</script>
+
+</body>
+</html>
